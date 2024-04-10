@@ -1,0 +1,94 @@
+/* Estilos para o site */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff5a5f;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Adicionado para centralizar botões verticalmente */
+    height: calc(100vh - 120px);
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 75px; /* Diminuí o tamanho pela metade */
+    height: 75px; /* Diminuí o tamanho pela metade */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ff5a5f;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #888;
+}
+
+.card button {
+    margin-top: 15px;
+    padding: 15px 30px; /* Aumentei o tamanho do padding */
+    border: none;
+    border-radius: 30px; /* Aumentei o raio da borda */
+    background-color: #ff5a5f;
+    color: white;
+    font-size: 1.2rem; /* Aumentei o tamanho da fonte */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #ff4247;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
